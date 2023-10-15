@@ -1,0 +1,32 @@
+{
+  "name": "subway_helper",
+  "version": "1.0.0",
+  "description": "none",
+  "main": "app.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "parsa Imani",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "@hapi/joi": "^17.1.1",
+    "@liara/cli": "^4.0.1",
+    "auto-bind": "^4.0.0",
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-validator": "^7.0.1",
+    "http-errors": "^2.0.0",
+    "jsonwebtoken": "^9.0.1",
+    "mongoose": "^7.3.4",
+    "morgan": "^1.10.0",
+    "node-fetch": "^3.3.1",
+    "redis": "^4.6.8"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
